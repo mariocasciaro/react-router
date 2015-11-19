@@ -249,7 +249,7 @@ function useRoutes(createHistory) {
       isActive,
       match,
       listenBeforeLeavingRoute,
-      listen
+      listenRoutes: listen
     }
   }
 }

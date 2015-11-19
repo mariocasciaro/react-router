@@ -61,7 +61,7 @@ class Router extends Component {
       stringifyQuery
     })
 
-    this._unlisten = this.history.listen((error, state) => {
+    this._unlisten = this.history.listenRoutes((error, state) => {
       if (error) {
         this.handleError(error)
       } else {
